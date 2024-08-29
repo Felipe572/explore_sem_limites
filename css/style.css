@@ -60,12 +60,26 @@ main {
 }
 
 .content {
+    display: grid;
     margin: auto;
     width: 35rem;
     height: 33.8rem;
     background-color: #fff;
     padding: 2.7rem 6rem 2.7rem 2.7rem;
     border-radius: 2rem;
+}
+
+.content > h2 {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--cor01);
+}
+
+.content > p {
+    color: var(--cor03);
+    font-size: 1.6rem;
+    font-weight: 600;
 }
 
 form {
