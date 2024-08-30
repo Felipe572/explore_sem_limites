@@ -6,6 +6,8 @@
     <title>Explore sem limites</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="start">
@@ -44,10 +46,16 @@
     <form action="">
         <h1>Entre em contato</h1>
 
-        <input type="text" id="name" placeholder="Seu nome aqui">
+        <div class="icon">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="name" placeholder="Nome">
+        </div>
 
-        <input type="email" id="email" placeholder="Email">
-
+        <div class="icon">
+            <i class="fa-solid fa-at"></i>
+            <input type="email" id="email" placeholder="Email">
+        </div>
+            
         <textarea id="text" placeholder="Digite sua mensagem aqui..." rows="6" ></textarea>
 
         <input type="button" id="button" value="Enviar Mensagem">
