@@ -1,68 +1,105 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-pr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explore sem limites</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&display=swap"
+  rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+
+  <title>Explore-Sem-Limites</title>
 </head>
 <body>
-    <div class="start">
-        <img src="imagens/img01.jpg" alt="Um Astronauta no espaço.">
 
-        <h1>Explore sem limites</h1>
-        <p>Porque o aprendizado é contínuo</p>
+  <header>
 
-        <svg width="59" height="105" viewBox="0 0 59 105" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="2" y="2" width="54.587" height="101" rx="27.2935" stroke="#B52184" stroke-width="4"/>
-            <path d="M28.8383 30.0042C28.5642 30.0387 28.3621 30.2768 28.3728 30.5528V74.0352L14.8981 62.0558C14.7957 61.9568 14.6582 61.903 14.5157 61.906C14.2928 61.913 14.0978 62.0581 14.0273 62.2695C13.9568 62.4809 14.0258 62.7141 14.2001 62.8532L28.5559 75.614C28.7562 75.7883 29.0537 75.7883 29.2539 75.614L43.6098 62.8532C43.7296 62.7649 43.8071 62.6307 43.823 62.4827C43.839 62.3347 43.7926 62.1867 43.6947 62.0747C43.5968 61.9631 43.4562 61.8971 43.3075 61.8934C43.1588 61.8897 43.0152 61.9486 42.9118 62.0558L29.437 74.0351V30.5528C29.443 30.3966 29.3799 30.2457 29.2649 30.14C29.1496 30.0343 28.9938 29.9846 28.8388 30.0042L28.8383 30.0042Z" fill="#B52184" stroke="#B52184" stroke-width="2.61398"/>
-            </svg>
-        
+    <div class="header-img">
+      <img id="astronauta" src="./images/astronauta.svg" alt="Um astronauta saindo do espaço">
     </div>
 
-    <main>
-        <div class="content">
-            <img src="imagens/img02.jpg" alt="">
-            <h2>Não pare nunca</h2>
-            <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
-        </div>
+    <div class="header-wrapper">
+        <h1>Explore sem limites</h1>
+        <p>Porque o aprendizado é contínuo</p>
+        <img src="./images/seta.svg" alt="Uma seta apontando para baixo">
+    </div>
 
-        <div class="content">
-            <img src="imagens/img03.jpg" alt="">
-            <h2>Só volta</h2>
-            <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
-        </div>
+  </header>
 
-        <div class="content">
-            <img src="imagens/img04.jpg" alt="">
-            <h2>Siga seu ritmo</h2>
-            <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
-        </div>
-    </main>
+  <main>
 
-    <form action="">
-        <h1>Entre em contato</h1>
+    <div class="main-wrapper">
 
-        <div class="icon">
-            <i class="fa-solid fa-user"></i>
-            <input type="text" id="name" placeholder="Nome">
-        </div>
+      <div class="cards">
 
-        <div class="icon">
-            <i class="fa-solid fa-at"></i>
-            <input type="email" id="email" placeholder="Email">
-        </div>
-            
-        <textarea id="text" placeholder="Digite sua mensagem aqui..." rows="6" ></textarea>
+        <img src="./images/luaAmarela.svg" alt="Uma lua amarela">
 
-        <input type="button" id="button" value="Enviar Mensagem">
-    
-    </form>
+        <h2>Não pare nunca</h2>
 
-    <footer><P>© 2024 - Rocketseat Explorer</P></footer>
+        <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "nâo pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
+
+      </div>
+
+      <div class="cards">
+
+        <img src="./images/luaAzul.svg" alt="Uma lua azul">
+
+        <h2>Só volta</h2>
+
+        <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
+
+      </div>
+
+      <div class="cards">
+
+        <img src="./images/luaRoxa.svg" alt="Uma lua roxa">
+
+        <h2>Siga seu ritmo</h2>
+
+        <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
+
+      </div>
+
+    </div>
+
+    <div class="footer-wrapper">
+
+      <form class="my-form" action="#">
+
+          <h3>Entre em contato</h3>
+
+          <fieldset>
+
+            <div class="input-wrapper">
+              <input id="name" type="userName" name="userName" placeholder="Seu nome"/>
+            </div>
+
+            <div class="input-wrapper">
+              <input id="email" type="email" name="email" placeholder="Email"/>
+            </div>
+
+            <div class="input-wrapper">
+              <textarea placeholder="Digite sua mensagem aqui..."></textarea>
+            </div>
+
+          </fieldset>
+
+          <button class="submit">Enviar Mensagem</button>
+
+      </form>
+
+    </div>
+
+  </main>
+
+  <footer>
+
+    <p>© 2024 - Rocketseat Explorer</p>
+  </footer>
 
 </body>
 </html>
