@@ -216,11 +216,11 @@
   }
   
   #name {
-    background: url(./images/person-email.svg) no-repeat scroll 1.4rem 1.2rem;
+    background: url(./imagens/person-email.svg) no-repeat scroll 1.4rem 1.2rem;
   }
   
   #email {
-    background: url(./images/@.svg) no-repeat scroll 1.4rem 1.2rem;
+    background: url(./imagens/@.svg) no-repeat scroll 1.4rem 1.2rem;
   }
   
   .my-form button {
